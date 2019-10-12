@@ -4,6 +4,7 @@ ARG=${1:-"Update"}
 
 for X in *.*
 
+
 do
 
 	chmod u+x $X 
