@@ -11,5 +11,5 @@ done
 
 
 git add *
-git commit -a -m "ARG"
+git commit -a -m "$ARG"
 git push -u origin master
