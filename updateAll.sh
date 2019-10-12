@@ -1,5 +1,7 @@
 #!/bin/bash
 
+ARG=${1:-"Update"}
+
 for X in *.*
 
 do
@@ -9,5 +11,5 @@ done
 
 
 git add *
-git commit -a -m "update"
+git commit -a -m "ARG"
 git push -u origin master
